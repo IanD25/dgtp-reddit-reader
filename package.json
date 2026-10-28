@@ -1,0 +1,9 @@
+{
+  "name": "dgtp-reddit-reader",
+  "version": "0.1.0",
+  "description": "Read-only Reddit Data API client used by Disc Golf Trading Post to summarize r/discgolf discussion of disc models.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": { "plan": "node reader.mjs plan", "run": "node reader.mjs run", "purge": "node reader.mjs purge" }
+}
